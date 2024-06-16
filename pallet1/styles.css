@@ -1,0 +1,92 @@
+body {
+    background-color: #171717;
+    color: #fff;
+    padding-top: 56px;
+}
+
+.navbar {
+    background-color: #00296b;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffd500 !important;
+}
+
+.jumbotron {
+    background-color: #003f88;
+    color: #fff;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+    background-color: #fdc500;
+    border-color: #fdc500;
+    color: #171717;
+}
+
+.btn-primary:hover,
+.btn-outline-secondary:hover {
+    background-color: #ffd500;
+    border-color: #ffd500;
+    color: #171717;
+}
+
+.form-control {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    color: #171717;
+}
+
+.form-control:focus {
+    background-color: #e9ecef;
+    border-color: #fdc500;
+    color: #171717;
+}
+
+h1, h3 {
+    color: #ffd500;
+}
+
+.card-title {
+    color: #fdc500;
+}
+
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Ajuste conforme necessário */
+    overflow: hidden;
+}
+
+.bg-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bg-image-overlay img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
