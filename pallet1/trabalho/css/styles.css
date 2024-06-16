@@ -1,0 +1,177 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 14px 16px;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.jumbotron {
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/1885594-mulher-segurando-um-cartao-de-credito-gratis-foto.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 180px 0;
+    margin-bottom: 0;
+}
+
+.features {
+    padding: 80px 0;
+}
+
+.feature-item {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.list-group-item {
+    border-color: #dee2e6;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #ffcd38;
+    border-color: #ffcd38;
+    color: #fff;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 100px 0;
+    }
+    .cta {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        padding: 80px 0;
+    }
+    .cta {
+        padding: 60px 0;
+    }
+}
+
+
+
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

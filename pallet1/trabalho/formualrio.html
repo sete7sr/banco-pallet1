@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Empréstimo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-success text-white text-center py-3">
+        <h1>Solicitação de Empréstimo</h1>
+    </header>
+
+    <main class="container mt-5">
+        <section id="emprestimo-form">
+            <h2 class="text-center mb-4">Preencha o formulário para solicitar seu empréstimo</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" class="form-control" id="cpf" name="cpf" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" class="form-control" id="telefone" name="telefone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="valor">Valor do Empréstimo:</label>
+                    <input type="number" class="form-control" id="valor" name="valor" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="prazo">Prazo de Pagamento (meses):</label>
+                    <input type="number" class="form-control" id="prazo" name="prazo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="renda">Renda Mensal:</label>
+                    <input type="number" class="form-control" id="renda" name="renda" required>
+                </div>
+
+                <button type="submit" class="btn btn-success btn-block">Solicitar Empréstimo</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-success text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Serviços Financeiros</p>
+    </footer>
+</body>
+</html>
