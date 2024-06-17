@@ -175,3 +175,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+.img3 {
+    transition: transform 0.2s;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 180px;
+    object-fit: cover;
+}
