@@ -1,6 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #003f88;
+}
+
+.bg-warning {
+    background-color: #00296b;
 }
 
 .navbar {
@@ -67,20 +71,18 @@ body {
 }
 
 .btn-warning {
-    background-color: #ff07e2;
-    border-color: #ffc107;
-    color: #fff;
+    background-color: #00296b;
+    border-color: #003f88;
+    color: #ffcd38;
 }
 
 .btn-warning:hover {
-    background-color: #ffcd38;
+    background-color: #003f88;
     border-color: #ffcd38;
-    color: #fff;
+    color: #ffcd38;
 }
 
-footer {
-    padding: 20px 0;
-}
+
 
 @media (max-width: 768px) {
     .jumbotron {
@@ -163,13 +165,11 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #00065b;
 }
 
 footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
+    
     padding: 10px 0;
     position: fixed;
     bottom: 0;
