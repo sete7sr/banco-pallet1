@@ -107,7 +107,7 @@ body {
 
 
 header {
-    background-color: #003f88;
+    background-color: #002753;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -158,7 +158,7 @@ form input, form select, form button {
 }
 
 form button {
-    background-color: #003f88;
+    background-color: #002753;
     color: white;
     border: none;
     cursor: pointer;
